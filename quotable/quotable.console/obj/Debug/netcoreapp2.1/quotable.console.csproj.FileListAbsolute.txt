@@ -1,0 +1,14 @@
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.deps.json
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.runtimeconfig.json
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.runtimeconfig.dev.json
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.console.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.core.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\bin\Debug\netcoreapp2.1\quotable.core.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csprojAssemblyReference.cache
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csproj.CoreCompileInputs.cache
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.AssemblyInfoInputs.cache
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.AssemblyInfo.cs
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.csproj.CopyComplete
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.console\obj\Debug\netcoreapp2.1\quotable.console.pdb
