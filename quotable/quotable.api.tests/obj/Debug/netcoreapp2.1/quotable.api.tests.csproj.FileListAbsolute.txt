@@ -1,0 +1,4 @@
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api.tests\obj\Debug\netcoreapp2.1\quotable.api.tests.csprojAssemblyReference.cache
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api.tests\obj\Debug\netcoreapp2.1\quotable.api.tests.csproj.CoreCompileInputs.cache
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api.tests\obj\Debug\netcoreapp2.1\quotable.api.tests.AssemblyInfoInputs.cache
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api.tests\obj\Debug\netcoreapp2.1\quotable.api.tests.AssemblyInfo.cs

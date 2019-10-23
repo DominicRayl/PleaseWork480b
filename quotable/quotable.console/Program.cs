@@ -32,7 +32,11 @@ namespace quotable.console
             IEnumerable<string> moreQuotes = System.IO.File.ReadLines(@"C:\Users\drayl20\source\repos\PleaseWork480b\quotable\quotable.core\quotesFile").ToList();
 
             DefaultRandomQuoteGenerator nw1 = new DefaultRandomQuoteGenerator(moreQuotes);
+
             
+            nw1.RetrieveQuoteById(0.ToString());
+            nw1.RetrieveQuoteByAuthor("Walker Percy");
+
 
         }
     }

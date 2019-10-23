@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "quotable.core.tests/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/quotable.core.tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/quotable.core.tests.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "quotable.core.tests/1.0.0": {
+      "type": "project",
+      "path": "../quotable.core.tests/quotable.core.tests.csproj",
+      "msbuildProject": "../quotable.core.tests/quotable.core.tests.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "quotable.core.tests >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -185,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
+      "projectUniqueName": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
       "projectName": "quotable.core",
-      "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
+      "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
       "packagesPath": "C:\\Users\\drayl20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\obj\\",
+      "outputPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj": {
+              "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -233,5 +253,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project quotable.core.tests is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project quotable.core.tests supports: netcoreapp2.1 (.NETCoreApp,Version=v2.1)",
+      "libraryId": "quotable.core.tests",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
