@@ -12,3 +12,6 @@ C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\obj\Debug\net
 C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.RazorTargetAssemblyInfo.cache
 C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.dll
 C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.core.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\bin\Debug\netcoreapp2.1\quotable.core.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.api\obj\Debug\netcoreapp2.1\quotable.api.csproj.CopyComplete

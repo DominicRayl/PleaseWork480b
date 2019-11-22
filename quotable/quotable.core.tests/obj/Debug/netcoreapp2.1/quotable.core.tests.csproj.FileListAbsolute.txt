@@ -13,3 +13,12 @@ C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\obj\De
 C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\obj\Debug\netcoreapp2.1\quotable.core.tests.AssemblyInfo.cs
 C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\obj\Debug\netcoreapp2.1\quotable.core.tests.dll
 C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\obj\Debug\netcoreapp2.1\quotable.core.tests.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.api.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.core.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.api.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.core.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\obj\Debug\netcoreapp2.1\quotable.core.tests.csproj.CopyComplete
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.api.tests.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.console.dll
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.api.tests.pdb
+C:\Users\drayl20\Source\Repos\PleaseWork480b\quotable\quotable.core.tests\bin\Debug\netcoreapp2.1\quotable.console.pdb

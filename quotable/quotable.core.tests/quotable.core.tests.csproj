@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\quotable.api.tests\quotable.api.tests.csproj" />
+    <ProjectReference Include="..\quotable.api\quotable.api.csproj" />
+    <ProjectReference Include="..\quotable.core\quotable.core.csproj" />
+  </ItemGroup>
+
 </Project>

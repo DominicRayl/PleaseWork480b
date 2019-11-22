@@ -28,7 +28,21 @@ namespace quotable.core
             
         }
 
-        
+        /// <summary>
+        /// Method from: https://whatis.techtarget.com/definition/controller
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="beginIndex"></param>
+        /// <param name="endIndex"></param>
+        /// <returns></returns>
+        public string JavaStyleSubstring(string s, int beginIndex, int endIndex)
+        {
+            // simulates Java substring function
+            int len = endIndex - beginIndex;
+            return s.Substring(beginIndex, len);
+        }
+
+
         /// <summary>
         /// Returns quote by the id
         /// </summary>
@@ -38,19 +52,53 @@ namespace quotable.core
         {
             string quoteByID = "";
             string theId = "";
+            
 
             foreach ( string quote in quoteList)
             {
+                int end = (quote.IndexOf('-'));
+                end = end - 2;
                 theId += quote[0].ToString();
                 if (theId == id)
                 {
-                    quoteByID = quote.Substring(3, '-');
+                    Console.WriteLine(end);
+                    quoteByID = JavaStyleSubstring(quote ,3, end);
                 }
+                theId = "";
             }
 
             //personal testing purposes 
             Console.WriteLine("This is quote by ID: " + quoteByID);
             return quoteByID;
+        }
+
+        public string RetrieveAuthorById(string id)
+        {
+            string authorByID = "";
+            string theId = "";
+            Boolean done = false;
+            
+
+            foreach (string quote in quoteList)
+            {
+                int start = quote.IndexOf('-');
+                start = start + 1;
+                theId += quote[0].ToString();
+                //Console.WriteLine("this is 'theId' " + theId + "." + " This is 'id' " + id);
+                if (theId == id)
+                {
+                    Console.WriteLine("We got here.");
+                    //authorByID = quote.Substring('-' + 1);
+
+                    authorByID = JavaStyleSubstring(quote, start, quote.IndexOf('.'));
+                }
+                theId = "";
+            }
+
+           // authorByID.Remove(0, 1); //Removes unslightly blemish as beginning of string
+
+            Console.WriteLine("This is 'RetrieveAuthorByID': " + authorByID);
+            return authorByID;
         }
 
         /// <summary>

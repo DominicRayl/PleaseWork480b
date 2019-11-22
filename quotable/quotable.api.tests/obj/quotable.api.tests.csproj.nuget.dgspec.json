@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj": {}
+    "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj": {
+    "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj",
+        "projectUniqueName": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj",
         "projectName": "quotable.api.tests",
-        "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj",
+        "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api.tests\\quotable.api.tests.csproj",
         "packagesPath": "C:\\Users\\drayl20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api.tests\\obj\\",
+        "outputPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,14 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj": {
-                "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj"
+              "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj": {
+                "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj"
               },
-              "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
-                "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj"
+              "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.console\\quotable.console.csproj": {
+                "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.console\\quotable.console.csproj"
+              },
+              "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
+                "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj"
               }
             }
           }
@@ -48,6 +51,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[15.8.0, )"
@@ -74,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj": {
+    "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj",
+        "projectUniqueName": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj",
         "projectName": "quotable.api",
-        "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj",
+        "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api\\quotable.api.csproj",
         "packagesPath": "C:\\Users\\drayl20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.api\\obj\\",
+        "outputPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -100,11 +111,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj": {
-                "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj"
-              },
-              "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
-                "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj"
+              "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
+                "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj"
               }
             }
           }
@@ -143,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj": {
+    "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.console\\quotable.console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj",
-        "projectName": "quotable.core.tests",
-        "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj",
+        "projectUniqueName": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.console\\quotable.console.csproj",
+        "projectName": "quotable.console",
+        "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.console\\quotable.console.csproj",
         "packagesPath": "C:\\Users\\drayl20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\obj\\",
+        "outputPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -168,7 +176,11 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
+                "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -180,22 +192,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[15.8.0, )"
-            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[3.10.0, )"
-            },
-            "nunit": {
-              "target": "Package",
-              "version": "[3.10.1, )"
             }
           },
           "imports": [
@@ -206,14 +206,14 @@
         }
       }
     },
-    "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
+    "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
+        "projectUniqueName": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
         "projectName": "quotable.core",
-        "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
+        "projectPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\quotable.core.csproj",
         "packagesPath": "C:\\Users\\drayl20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core\\obj\\",
+        "outputPath": "C:\\Users\\drayl20\\Source\\Repos\\PleaseWork480b\\quotable\\quotable.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -231,11 +231,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj": {
-                "projectPath": "C:\\Users\\drayl20\\source\\repos\\PleaseWork480b\\quotable\\quotable.core.tests\\quotable.core.tests.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -247,6 +243,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

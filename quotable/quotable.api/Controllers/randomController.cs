@@ -22,7 +22,7 @@ namespace quotable.api.Controllers
 
         // GET: api/<controller>
         [HttpGet]
-        public ActionResult<Models.QuotableData> Get()
+        public ActionResult<QuotableData> Get()
         {
             var data = new QuotableData();
             Random rn = new Random();
