@@ -54,7 +54,81 @@ namespace quotable.console
             using (var context = provider.GetService<quotableContext>())
             {
                 await context.Database.EnsureDeletedAsync();
+
+
+                var dbDidntExist = await context.Database.EnsureCreatedAsync();
+
+                if (dbDidntExist)
+                {
+                    //await PopulateDatabase(context);
+                }
             }
+
+            using (var context = provider.GetService<quotableContext>())
+            {
+                var quotes = context.Quotes
+                                            .Include(d => d.QuoteAuthor)
+                                            .ThenInclude(x => x.Author);
+                foreach (var quote in quotes)
+                {
+                    Console.WriteLine($"quote.id = {quote.Id}");
+                    Console.WriteLine($"quote.title = {quote.Title}");
+
+                    foreach (var author in quote.Authors)
+                    {
+                        Console.WriteLine($"document.author.id = {author.Id}");
+                        Console.WriteLine($"document.author.firstname = {author.FirstName}");
+                        Console.WriteLine($"document.author.firstname = {author.LastName}");
+                    }
+
+                    Console.WriteLine();
+                }
+            }
+
+            Console.ReadKey();
+        
+           
+        }
+        /// <summary>
+        /// In the intrest of completing this assignment, I decided to hard code the quotes instead of reading from file.
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        private static async Task PopulateDatabase(quotableContext context)
+        {
+            var author1 = new Author()
+            {
+                FirstName = "Walker",
+                LastName = "Percy"
+            };
+            var author2 = new Author()
+            {
+                FirstName = "Mark",
+                LastName = "Twain"
+            };
+            var author3 = new Author()
+            {
+                FirstName = "Michel",
+                LastName = "Houellebecq"
+            };
+
+            var quote1 = new Quote();
+            quote1.Title = "You can get straight A's and still flunk life";
+
+            var quote2 = new Quote();
+            quote2.Title = "Never regret anything that made you smile";
+
+            var quote3 = new Quote();
+            quote3.Title = "Anything can happen in life, especially nothing";
+
+            var da1 = new QuoteAuthor() { Quote = quote1, Author = author1 };
+            var da2 = new QuoteAuthor() { Quote = quote2, Author = author2 };
+            var da3 = new QuoteAuthor() { Quote = quote3, Author = author3 };
+       
+            context.AddRange(da1, da2, da3);
+
+            await context.SaveChangesAsync();
         }
     }
+
 }
