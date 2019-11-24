@@ -60,7 +60,7 @@ namespace quotable.console
 
                 if (dbDidntExist)
                 {
-                    //await PopulateDatabase(context);
+                    await PopulateDatabase(context);
                 }
             }
 
